@@ -4,6 +4,10 @@ Created via angular-cli `ng new hash-app`.  Also requires Angular material which
 can be installed using 
 `npm install --save @angular/material @angular/cdk @angular/animations`
 
+# Update dependencies
+
+Run `ng update` to view which dependencies can be updated to latest versions.
+
 # Local Server
 
 `ng serve --open` from the `hash-app` dir.  Serves on http://localhost:4200/.
