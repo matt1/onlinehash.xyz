@@ -1,0 +1,28 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.tabs-container {
+    flex-grow: 5;
+    padding: 1em;
+    
+}
+
+.footer {
+    background-color: #e0e0e0;
+    color: #616161;
+    flex-grow: 1;
+}
+
+.footer-columns {
+    display: flex;
+    font-size: 90%;
+    flex-direction: row;
+}
+
+.footer-left, .footer-right {
+   flex: 1;
+   margin: 1em;
+}

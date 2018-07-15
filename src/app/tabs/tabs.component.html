@@ -1,0 +1,13 @@
+<mat-tab-group class="demo-tab-group">
+  <ng-container *ngFor="let algo of algos">
+      <mat-tab [label]="algo.name">
+          <mat-form-field class="input">
+            <textarea matInput (keyup)='doHash($event, algo)' (change)="doHash($event, algo)"></textarea>
+          </mat-form-field>
+          <div class="output">
+            {{algo.lastHash}}
+          </div>
+        </mat-tab>        
+  </ng-container>
+</mat-tab-group>
+
