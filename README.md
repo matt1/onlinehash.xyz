@@ -1,4 +1,4 @@
-# Online Hasher App
+# Online Hasher App @ https://onlinehash.xyz
 
 Created via angular-cli `ng new hash-app`.  Also requires Angular material which
 can be installed using 
