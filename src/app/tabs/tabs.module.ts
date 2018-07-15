@@ -6,6 +6,7 @@ import {CommonModule} from '@angular/common';
 import {MatIconModule} from '@angular/material/icon';
 import {MatInputModule} from '@angular/material/input';
 import {MatTabsModule} from '@angular/material/tabs';
+import {MatTooltipModule} from '@angular/material/tooltip';
 
 import { TabsComponent } from './tabs.component';
 
@@ -21,6 +22,7 @@ import { TabsComponent } from './tabs.component';
     MatInputModule,
     MatIconModule,
     MatTabsModule,
+    MatTooltipModule,
   ],
   providers: [],
 })

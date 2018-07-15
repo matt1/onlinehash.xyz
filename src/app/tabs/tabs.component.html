@@ -4,8 +4,14 @@
           <mat-form-field class="input">
             <textarea matInput (keyup)='doHash($event, algo)' (change)="doHash($event, algo)"></textarea>
           </mat-form-field>
-          <div class="output">
-            {{algo.lastHash}}
+          <div class="output-container">
+            <div class="output">
+                {{displayHash(algo)}}
+            </div>
+            <div class="output-controls">
+                <mat-icon matTooltip="Copy">file_copy</mat-icon>
+                <mat-icon matTooltip="Switch case" (click)="upperCase = !upperCase">swap_vert</mat-icon>
+            </div>            
           </div>
         </mat-tab>        
   </ng-container>
