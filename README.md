@@ -10,7 +10,7 @@ Run `ng update` to view which dependencies can be updated to latest versions.
 
 # Local Server
 
-`ng serve --open` from the `hash-app` dir.  Serves on http://localhost:4200/.
+`ng serve --open` from the root dir (i.e. dir containing the `README.md`).  Serves on http://localhost:4200/.
 
 # Building for deploy
 

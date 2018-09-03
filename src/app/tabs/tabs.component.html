@@ -9,7 +9,7 @@
                 {{displayHash(algo)}}
             </div>
             <div class="output-controls">
-                <mat-icon matTooltip="Copy">file_copy</mat-icon>
+                <mat-icon matTooltip="Copy" (click)="copy(algo)">file_copy</mat-icon>
                 <mat-icon matTooltip="Switch case" (click)="upperCase = !upperCase">swap_vert</mat-icon>
             </div>            
           </div>
